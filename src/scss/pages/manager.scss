@@ -1,0 +1,53 @@
+.employees {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 35px;
+    a {
+      color: #4185c0;
+      text-decoration: none;
+    }
+    .comment {
+      font-weight: 500;
+      font-size: 1.5rem;
+      letter-spacing: 2px;
+    }
+    .excellent {
+      color: #228463;
+      font-size: 1.5rem;
+    }
+    .good {
+      color: #4185c0;
+      font-size: 1.5rem;
+    }
+    .average {
+      color: #7a940e;
+      font-size: 1.5rem;
+    }
+    .bad {
+      color: red;
+      font-size: 1.5rem;
+    }
+}
+.rating {
+  background-color: #228463;
+  padding: 2rem;
+  margin: 2rem 0 0 0;
+  color: white;
+}
+.manager {
+  .text-red {
+    color: red;
+  }
+  .text-green {
+    color: green;
+  }
+}
+th {
+  background-color: #228463 !important;
+  padding: 2rem !important;
+  margin-top: 2rem;
+  color: white;
+}
+td {
+  padding: 2rem !important;
+}

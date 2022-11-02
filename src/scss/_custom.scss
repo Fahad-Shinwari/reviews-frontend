@@ -1,0 +1,32 @@
+// Here you can add other styles
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+}
+
+.nav-link {
+  .filled {
+    color: rgb(99, 99, 243);
+    height: 2rem !important;
+    width: 2rem !important;
+  }
+}
+
+.dropdown-menu {
+  height: 500px;
+  overflow:auto;
+  .badge-success {
+    color: green;
+  }
+  .badge-danger {
+    color: red;
+  }
+  .manager {
+    font-weight: 800;
+    text-transform: capitalize;
+  }
+}
+
+a{
+  text-decoration: none;
+}
